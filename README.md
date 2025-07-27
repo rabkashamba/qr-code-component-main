@@ -15,8 +15,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
       This Project(Challenge) required the use of simple HTML and CSS in making of a QR CODE card.
+      
 ### Screenshot
-
 ![](.\images\project-screenshot.png)
 
 ### Links
