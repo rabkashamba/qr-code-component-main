@@ -6,6 +6,7 @@
     --colorh: hsl(218, 44%, 22%);
     --colorp: hsl(216, 15%, 48%);
     --colora: hsl(228, 45%, 44%);
+    --shadow: rgba(0, 0, 0, 0.1);
 }
 
 body {
@@ -27,10 +28,10 @@ h1 {
     background-color: var(--color2);
     width: 30vh;
     height: auto;
-    margin: 7rem auto;
+    margin: 5rem auto;
     border-radius: 5%;
     padding: 4%;
-    box-shadow:  0.2rem 0.2rem 0.6rem rgba(0, 0, 0, 0.1);
+    box-shadow:  0.2rem 0.2rem 0.6rem var(--shadow);
 }
 
 
