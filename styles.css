@@ -28,7 +28,7 @@ h1 {
     background-color: var(--color2);
     width: 30vh;
     height: auto;
-    margin: 5rem auto;
+    margin: 4rem auto;
     border-radius: 5%;
     padding: 4%;
     box-shadow:  0.2rem 0.2rem 0.6rem var(--shadow);
