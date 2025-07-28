@@ -1,22 +1,30 @@
+:root{
+    --color1: hsl(212, 45%, 89%);
+    --color2:  hsl(0, 0%, 100%);
+    --colorh2: hsl(218, 44%, 22%);
+    --colorp: hsl(216, 15%, 48%);
+    --colora: hsl(228, 45%, 44%);
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 body {
-    width: 375px;
+    width: calc(375/16 * 1rem);
     max-width: 100vw;
     margin: 0 auto;
-    background-color:  hsl(212, 45%, 89%);
-    padding-top: 40px;
+    background-color: var(--color1) ;
+    padding-top: 3em;
     font-family: 'Outfit', sans-serif;
 }
 
 .card {
-    background-color: hsl(0, 0%, 100%);
-    width: 35vh;
+    background-color: var(--color2);
+    width: 30vh;
     height: auto;
-    margin: 6em auto;
+    margin: 8rem auto;
     border-radius: 5%;
     padding: 4%;
-    box-shadow:  3px 3px 10px rgba(0, 0, 0, 0.1);
+    box-shadow:  0.2rem 0.2rem 0.6rem rgba(0, 0, 0, 0.1);
 }
 
 
@@ -32,15 +40,20 @@ h2, p {
 
 h2 {
     font-weight: 700;
-    color:  hsl(218, 44%, 22%);
+    color: var(--colorh2) ;
 }
 
 p {
     font-weight: 400;
-    color: hsl(216, 15%, 48%);
+    color: var(--colorp);
 }
 
 .attribution {
-    margin-top: 6%;
+    font-size: 0.7rem; text-align: center; 
 }
 
+.attribution a { color: var(--colora) ; }
+
+.card:hover {
+    transform: scale(1.08);
+}
