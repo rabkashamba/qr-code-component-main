@@ -1,12 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 :root{
     --color1: hsl(212, 45%, 89%);
     --color2:  hsl(0, 0%, 100%);
-    --colorh2: hsl(218, 44%, 22%);
+    --colorh: hsl(218, 44%, 22%);
     --colorp: hsl(216, 15%, 48%);
     --colora: hsl(228, 45%, 44%);
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 body {
     width: calc(375/16 * 1rem);
@@ -15,6 +15,12 @@ body {
     background-color: var(--color1) ;
     padding-top: 3em;
     font-family: 'Outfit', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: var(--colorh);
 }
 
 .card {
@@ -40,7 +46,7 @@ h2, p {
 
 h2 {
     font-weight: 700;
-    color: var(--colorh2) ;
+    color: var(--colorh) ;
 }
 
 p {
