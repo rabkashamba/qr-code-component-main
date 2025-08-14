@@ -24,7 +24,7 @@ body {
 
 
  main {
-    margin-block: calc(2rem + 8vh);
+    margin-block: calc(5rem + 15vh);
     margin-inline: auto;
     width: clamp(32rem, 90%, 37.5rem);
 }
